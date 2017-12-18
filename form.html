@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<form name="f">
+
+	  <input name="title" value="Умное название">
+
+	</form>
+
+<script type="text/javascript">
+	
+	// Передаём name и surname в параметрах запроса
+
+	var xhr = new XMLHttpRequest();
+
+	var params = 'title=' + encodeURIComponent(document.forms.f.elements.title.value);
+	
+
+	xhr.open("GET", '/test.php?' + params, true);
+
+	xhr.send();
+
+</script>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo quasi unde modi fuga in provident, temporibus dolores possimus impedit iste, fugiat consequatur harum eligendi repellendus cumque neque nostrum. Incidunt eligendi cum possimus veritatis! Odit aut rerum esse maxime, accusamus iure eligendi perferendis deserunt quaerat laudantium, ipsam, distinctio enim sit inventore quis quibusdam repudiandae in, dolor consequatur adipisci nisi eos? Voluptatum, culpa. Culpa aspernatur animi laudantium soluta, adipisci nostrum, est dolore libero, eaque quisquam accusamus! Deserunt magni enim quos minus nulla sunt consectetur saepe doloribus odio dicta libero, quo excepturi, assumenda adipisci debitis suscipit architecto expedita tempore aliquam eligendi! Nam temporibus eaque illo, cumque? Odit quod ea non nulla odio sint quasi, fuga totam enim quis repellat sapiente excepturi sit assumenda temporibus magni. Nemo quibusdam corporis iusto quis voluptate et necessitatibus reiciendis neque placeat voluptates! Officiis, et. Totam laborum provident laudantium beatae veniam doloremque maxime nostrum tenetur, maiores praesentium aliquid deserunt.</p>
+<p>Tempora qui laboriosam quis, molestias obcaecati ducimus ipsa, nobis nemo commodi quaerat nam, consequatur voluptate libero ad ipsum. Id nulla, in nobis ipsam labore rem qui eaque nam? Consequatur et, harum nostrum provident aliquam repudiandae, id doloremque repellat quod placeat amet beatae hic? Pariatur fuga quidem similique quae quos tempore. Adipisci aut eos alias iusto atque veniam hic tempora id harum deserunt molestias eligendi ea distinctio ex ipsa officia saepe, voluptates nisi? Voluptatum a id rerum ut recusandae perferendis earum quis iusto tempore voluptatibus! Cum laudantium animi, molestiae, ipsam quia blanditiis distinctio repellendus totam ad ipsa mollitia iure repudiandae voluptas numquam! Alias, eum nemo! Qui, praesentium, dolorum! Consectetur magnam itaque pariatur eveniet quas vel tenetur dolorem labore reprehenderit temporibus odit deleniti quos odio non optio tempore quibusdam ex quod, fugiat expedita illo, fugit fuga deserunt. Vel optio, modi laudantium, minus quae aperiam, nobis eligendi doloribus, architecto pariatur mollitia suscipit perferendis.</p>
+<p>Explicabo quasi tempore non sunt aspernatur, asperiores blanditiis esse quaerat repudiandae quam dignissimos autem, eaque porro quo perspiciatis earum minima ipsam nam magnam dolore illum at quas aliquam optio voluptas! Repellat fugit facilis possimus nihil, dolorem, quae non eligendi neque, sed aliquid mollitia eaque eveniet, quia quas explicabo officia vero modi repudiandae! Obcaecati tempore, totam, atque odit, maxime veritatis earum fugiat asperiores temporibus sit quibusdam consequuntur? Neque quidem vero dolor, illum amet sequi iusto ullam laborum sint necessitatibus reprehenderit voluptas animi perferendis, deserunt a, debitis. Dicta minus obcaecati possimus excepturi dolor neque? Eos sapiente exercitationem explicabo, repellat quas ipsam provident officia corporis dolorem neque repellendus error, nemo qui ea eligendi, aliquam quidem optio. Magni sint, necessitatibus atque facere! Vel dolore quis veritatis et omnis dicta, incidunt veniam, consequatur, numquam excepturi ipsam! Ab corporis velit alias quod, excepturi facere tempore qui dolorum odit doloribus veritatis similique quas adipisci possimus, maxime incidunt.</p>
+
+
+</body>
+</html>
