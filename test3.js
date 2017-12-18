@@ -165,7 +165,7 @@ Ext.create('Ext.grid.Panel', {
     width: 400, 
     renderTo: Ext.getBody() }); 
 
-
+//ttt
 
              {
                 text: 'Новая запись',
